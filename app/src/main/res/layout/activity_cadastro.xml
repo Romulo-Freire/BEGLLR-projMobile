@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background2"
+    tools:context="fmm.org.br.projetomobile.CadastroActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Cadastro dos PEVs"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:textColor="#008000"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etNome"
+            android:paddingTop="30dp"
+            android:hint="insira o nome do PEV aqui"
+            android:textColorHint="#084d6e"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEndereco"
+            android:paddingTop="30dp"
+            android:hint="insira o endereço do PEV aqui"
+            android:textColorHint="#084d6e"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etTelefone"
+            android:paddingTop="30dp"
+            android:hint="insira o telefone do PEV aqui"
+            android:textColorHint="#084d6e"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCEP"
+            android:paddingTop="30dp"
+            android:hint="insira o CEP do PEV aqui"
+            android:textColorHint="#084d6e"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:text="Concluído"
+            android:textSize="24dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:onClick="cadastrarDados"
+            android:background="@drawable/btnazul"
+            android:id="@+id/btConcluido" />
+
+    </LinearLayout>
+
+</LinearLayout>
